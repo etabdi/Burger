@@ -1,6 +1,6 @@
 # Eat-Da-Burger
 
-   ![Alt Text](https://github.com/etabdi/eat-da-burger/blob/Gpublic\assets\img\eat-du-burger.PNG)
+   ![Alt Text](https://github.com/etabdi/Eat-Da-Burger/blob/master/public/assets/img/eat-du-burger.PNG)
       
 [ Click here for demo video ](https://drive.google.com/file/d/1ClhRcCXVW7_CVUcSSjWxf0e0Sr2sRs7E/view)
 
