@@ -1,0 +1,48 @@
+
+.burg{
+  height:10%;
+  width:50%;
+  float: left;
+  background-color:none;
+
+}
+
+.button  {
+    
+        background-color: #f4511e;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #4CAF50; /* Green */
+  }
+  .button:hover {opacity: 1}
+ 
+  .coupon {
+    border: 5px dotted rgb(240, 213, 127);
+    width: 80%;
+    border-radius: 15px;
+    margin: 10px ;
+    max-width: 600px;
+    padding:5px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7BNK-pWplVH-DjhL4EEQMFEUlEo6mU_L3XCypFVqQwBl8LY2mpQ");
+  
+    font-weight: bold;
+    color:rgb(43, 25, 2);
+    
+    
+
+  }
+  h4{
+    background-color: seashell;
+    font-size:18px;
+    padding:0px;
+
+  }
