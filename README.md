@@ -1,4 +1,3 @@
-# Eat-Da-Burger
 
    ![Alt Text](https://github.com/etabdi/Eat-Da-Burger/blob/master/public/assets/img/eat-du-burger.PNG)
       
