@@ -1,7 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "![Alt Text](https://github.com/etabdi/Eat-Da-Burger/blob/master/public/assets/img/eat-du-burger.PNG)",
+  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
