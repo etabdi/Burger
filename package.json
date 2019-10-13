@@ -1,8 +1,8 @@
 {
-  "name": "eat-da-burger",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "![Alt Text](https://github.com/etabdi/Eat-Da-Burger/blob/master/public/assets/img/eat-du-burger.PNG)",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
@@ -12,16 +12,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/etabdi/Eat-Da-Burger.git"
+    "url": "git+https://github.com/etabdi/Burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/etabdi/Eat-Da-Burger/issues"
+    "url": "https://github.com/etabdi/Burger/issues"
   },
-  "homepage": "https://github.com/etabdi/Eat-Da-Burger#readme"
+  "homepage": "https://github.com/etabdi/Burger#readme"
 }
