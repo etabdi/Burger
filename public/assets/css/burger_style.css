@@ -4,6 +4,7 @@
   width:50%;
   float: left;
   background-color:none;
+ 
 
 }
 
@@ -22,6 +23,7 @@
         text-decoration: none;
         cursor: pointer;
         border: 2px solid #4CAF50; /* Green */
+        cursor:grab;
   }
   h1 {
     display: block;
@@ -45,7 +47,7 @@
     max-width: 600px;
     padding:5px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7BNK-pWplVH-DjhL4EEQMFEUlEo6mU_L3XCypFVqQwBl8LY2mpQ");
-  
+    cursor:grab;
     font-weight: bold;
     color:rgb(43, 25, 2);
     
