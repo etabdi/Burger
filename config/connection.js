@@ -8,11 +8,11 @@ if (process.env.JAWSDB_URL) {
 } else {
     // Database is local
     connection = mysql.createConnection({
-        //port: 3306,
+        port: 3306,
         host: 'localhost',
         user: 'root',
-        password: '',
-        database: 'burger_db'
+        password:'',
+        database:'burger_db'
     })
 };
 
