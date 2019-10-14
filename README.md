@@ -17,10 +17,12 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burger the
       HTML
       CSS/Bootstrap
       Javascript
-      Handlebars
+      Express-Handlebars
       NODE JS   
       Express.js
       MySQL 
+      heroku
+      Jawsdb      
     
 ## Heroku Link:
 https://burger-etabdi.herokuapp.com/
