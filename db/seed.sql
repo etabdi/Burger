@@ -1,6 +1,5 @@
-INSERT INTO burger(burger_name, devoured)
-	values('Booger Burger', false),
-    ('Flora-Burger', false),
-    ('Bama-Burger', false);
-    
+  INSERT INTO burger(burger_name, devoured)
+	values('Bacon cheeseburger', false),
+    ('Buffalo burger', false),
+    ('Barbecue burger', false);
     select * from burger;
