@@ -1,6 +1,7 @@
 
 <div >
-  <img src="http://localhost:8080/assets/img/log.jpg" alt="Logo" id="logo-image" />
+
+  <h1>Eat-Da-Burger!</h1>
  
    
  <div id='add'>
@@ -46,7 +47,7 @@
                 <frameset>
                     {{#each burger}} {{#if this.devoured}}
                     <li>
-                        {{this.id}}. {{this.burger_name}}
+                        {{this.id}}.     {{this.burger_name}}<hr/>
                    </li>
                     {{/if}} {{/each}}
             </frameset>

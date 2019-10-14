@@ -23,6 +23,18 @@
         cursor: pointer;
         border: 2px solid #4CAF50; /* Green */
   }
+  h1 {
+    display: block;
+    font-size: 4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 30px;
+    margin-right: 0;
+    font-weight: bold;
+    font-variant: small-caps;
+    color:rgb(248, 126, 4);
+    text-shadow: 2px 2px #0a0000;
+  }
   .button:hover {opacity: 1}
  
   .coupon {
@@ -45,4 +57,12 @@
     font-size:18px;
     padding:0px;
 
+  }
+  li{
+   
+    font-weight: bold;
+    font-size:18px;
+    color:rgb(248, 126, 4);
+    background-color: honeydew;
+    list-style-type:none;
   }
