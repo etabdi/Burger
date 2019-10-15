@@ -27,5 +27,5 @@ app.use(express.static('public'));
 // Listener
 app.listen(PORT,function(){
     
-    console.log("App now listening at localhost:" + PORT);
+    console.log("Listening at localhost:" + PORT);
 });

@@ -1,10 +1,6 @@
-/*Inside the burgers_controller.js file, import the following:
-Express
-burger.js*/
+
 var express=require('express');
   
-var express = require('express');
-
 var router = express.Router();
 
 
@@ -13,11 +9,11 @@ var burger = require("../models/burger.js");
 
 router.get("/", function (req, res) {
     burger.selectAll(function (data) {
-        var hbsObject = {
+        var burgerDat = {
             burger: data
         };
-        console.log(hbsObject);
-        res.render("index", hbsObject);
+ 
+        res.render("index", burgerDat);
     });
 });
 
@@ -28,9 +24,10 @@ router.post("/", function (req, res) {
 });
 
 router.put("/:id", function (req, res) {
+
     var id = req.params.id;
 
-    console.log("id", id);
+    
 
     burger.updateOne(id, function () {
         res.redirect("/");
