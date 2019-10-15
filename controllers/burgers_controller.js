@@ -1,10 +1,6 @@
 
-var express=require('express');
-  
+var express = require('express');
 var router = express.Router();
-
-
-
 var burger = require("../models/burger.js");
 
 router.get("/", function (req, res) {
@@ -12,7 +8,7 @@ router.get("/", function (req, res) {
         var burgerDat = {
             burger: data
         };
- 
+
         res.render("index", burgerDat);
     });
 });
@@ -26,8 +22,6 @@ router.post("/", function (req, res) {
 router.put("/:id", function (req, res) {
 
     var id = req.params.id;
-
-    
 
     burger.updateOne(id, function () {
         res.redirect("/");
