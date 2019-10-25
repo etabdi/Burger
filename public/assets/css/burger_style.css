@@ -1,72 +1,56 @@
-
-.burg{
-  height:10%;
-  width:50%;
-  float: left;
-  background-color:none;
- 
-
+line-height: 28px;
+min-height: 28px;
+font-size: 12px;
+padding-left: 45px;
 }
 
-.button  {
-    
-        background-color: #f4511e;
-        border: none;
-        color: white;
-        padding: 16px 32px;
-        text-align: center;
-        font-size: 16px;
-        margin: 4px 2px;
-        opacity: 0.6;
-        transition: 0.3s;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        border: 2px solid #4CAF50; /* Green */
-        cursor:grab;
-  }
-  h1 {
-    display: block;
-    font-size: 4em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 30px;
-    margin-right: 0;
-    font-weight: bold;
-    font-variant: small-caps;
-    color:rgb(248, 126, 4);
-    text-shadow: 2px 2px #0a0000;
-  }
-  .button:hover {opacity: 1}
- 
-  .coupon {
-    border: 5px dotted rgb(240, 213, 127);
-    width: 80%;
-    border-radius: 15px;
-    margin: 10px ;
-    max-width: 600px;
-    padding:5px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7BNK-pWplVH-DjhL4EEQMFEUlEo6mU_L3XCypFVqQwBl8LY2mpQ");
-    cursor:grab;
-    font-weight: bold;
-    color:rgb(43, 25, 2);
-    
-    
+/* line 1067, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.form-select .nice-select .list .option.selected {
+color: #fe5c24;
+background: transparent;
+}
 
-  }
-  h4{
-    background-color: seashell;
-    font-size:18px;
-    padding:0px;
+/* line 1071, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.form-select .nice-select .list .option:hover {
+color: #fe5c24;
+background: transparent;
+}
 
-  }
-  li{
-   
-    font-weight: bold;
-    font-size:18px;
-    color:rgb(248, 126, 4);
-    background-color: honeydew;
-    list-style-type:none;
-  }
-  
+/* line 1078, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.form-select .current {
+margin-right: 50px;
+font-weight: 300;
+}
 
+/* line 1082, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.form-select .nice-select::after {
+right: 20px;
+}
+
+/* line 1086, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.mt-10 {
+margin-top: 10px;
+}
+
+/* line 1089, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.section-top-border {
+padding: 50px 0;
+border-top: 1px dotted #eee;
+}
+
+/* line 1093, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.mb-30 {
+margin-bottom: 30px;
+}
+
+/* line 1096, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.mt-30 {
+margin-top: 30px;
+}
+
+/* line 1099, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
+.switch-wrap {
+margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=../css/style.map */
